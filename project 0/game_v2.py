@@ -11,7 +11,7 @@ while True:
         print("Число должно быть меньше на ", (predict_number-number), "!")
 
     elif predict_number-number<0:
-        print("Число должно быть больше на ", (predict_number-number), "!")
+        print("Число должно быть больше на ", (abs(int(predict_number-number))), "!")
 
     else:
         print(f"Вы угадали число! Это число = {number}, за {count} попыток")
